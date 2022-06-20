@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+
+        </div>
+
+        <div class="slider">
+            <ul class="navbar">
+                <li class="navbar__item">
+                    <a href="" class="navbar__item-link">Trang chủ</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="" class="navbar__item-link">Sản phẩm</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="" class="navbar__item-link">Khách hàng</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="" class="navbar__item-link">Bảo hành</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="" class="navbar__item-link">Khuyến mãi</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="" class="navbar__item-link">Liên hệ</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <div class="row">
+                <div class="col col-left">
+                    <p>Máy tính Lenovo</p>
+                    <p>Máy tính Dell</p>
+                    <p>Máy tính HP</p>
+                </div>
+                <div class="col col-center">
+                    <table width="460px" height="399">
+                        <tr>
+                          <td colspan="2" style="text-align: center;font-weight: bold;">Đặt hàng online</td>
+                        </tr>
+                        <tr>
+                          <td width="213">Chọn sản phẩm</td>
+                          <td width="403">
+                              <select name="" id="select-laptop">
+                                  <option value="0">Mời chọn máy tính</option>
+                                  <option value="500">Lenovo E200</option>
+                                  <option value="550">Votro P200 </option>
+                                  <option value="520">HP desktop U100</option>
+                              </select>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Giá</td>
+                          <td>
+                              <input type="text" name="" id="gia">
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Tùy chọn nâng cao</td>
+                          <td>
+                              <div>
+                                  <input type="checkbox" name="" id="checkbox1" value="120">
+                                  <label for="checkbox1">CPU Core i9 (+120USD)</label>
+                              </div>
+                              <div>
+                                <input type="checkbox" name="" id="checkbox2" value="80">
+                                <label for="checkbox2">Card ATI (+80USD)</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="" id="checkbox3" value="20">
+                                <label for="checkbox3">Bảo hành 3 năm (+20USD)</label>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Nâng cấp Ram</td>
+                          <td>
+                            <div>
+                                <input type="radio" name="radio" id="radio1" value="40">
+                                <label for="radio1">8G (+40USD)</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="radio" id="radio2" value="70">
+                                <label for="radio2">16G (+70USD)</label>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Số lượng</td>
+                          <td>
+                              <input type="text" name="" id="quantity">
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><button onclick="handleSubmit()" class="btn-thanhtien">Thành tiền</button></td>
+                          <td>
+                              <input type="text" name="" id="thanhtien">
+                          </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <button class="btn-order">Đặt hàng</button>
+                            </td>
+                          </tr>
+                      </table>
+                </div>
+                <div class="col col-right">
+                    <div class="img-img"><img src="./Untitled.png" alt="" width="200px"></div>
+                    <div class="p-p">
+                        <p>Lenovo E1862</p>
+                    <p>HP Server P192</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Bài thi môn lập trình web phía client</p>
+            <p>Họ và tên: Dương Minh Lộc</p>
+            <p>Mã sinh viên: 18096371</p>
+        </div>
+    </div>
+    
+    <script src="./main.js"></script>
+
+</body>
+</html>
